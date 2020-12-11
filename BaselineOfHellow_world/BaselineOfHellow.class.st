@@ -12,5 +12,5 @@ BaselineOfHellow >> baseline: spec [
         "Packages"
         spec
             package: 'Hellow_World';
-            package: 'HellowTest' with: [ spec requires: #('Hellow') ] ].
+            package: 'HellowTest' with: [ spec requires: #('Hellow_World') ] ].
 ]
