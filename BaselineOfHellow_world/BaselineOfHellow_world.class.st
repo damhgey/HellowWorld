@@ -14,3 +14,9 @@ BaselineOfHellow_world >> baseline: spec [
             package: 'Hellow_world';
             package: 'Hellow_worldTest' with: [ spec requires: #('Hellow_world') ] ].
 ]
+
+{ #category : #baselines }
+BaselineOfHellow_world >> projectClass [
+	^ MetacelloCypressBaselineProject
+	
+]
