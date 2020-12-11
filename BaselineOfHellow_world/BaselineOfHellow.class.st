@@ -7,10 +7,11 @@ Class {
 { #category : #baselines }
 BaselineOfHellow >> baseline: spec [
     <baseline>
-    spec for: #common do: [	
+    spec for:
+	 #common do: [	
 				
         "Packages"
         spec
-            package: 'Hellow_World';
-            package: 'HellowTest' with: [ spec requires: #('Hellow_World') ] ].
+            package: 'Hellow_world';
+            package: 'HellowTest' with: [ spec requires: #('Hellow_world') ] ].
 ]
